@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91236D761B08F59300734C5E"
-               BuildableName = "TemplateProjectAppExtension.appex"
+               BuildableName = "BassMatrixAppExtension.appex"
                BlueprintName = "AUv3"
-               ReferencedContainer = "container:TemplateProject-iOS.xcodeproj">
+               ReferencedContainer = "container:BassMatrix-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91236D0C1B08F42B00734C5E"
-               BuildableName = "TemplateProject.app"
+               BuildableName = "BassMatrix.app"
                BlueprintName = "App"
-               ReferencedContainer = "container:TemplateProject-iOS.xcodeproj">
+               ReferencedContainer = "container:BassMatrix-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91236D761B08F59300734C5E"
-            BuildableName = "TemplateProjectAppExtension.appex"
+            BuildableName = "BassMatrixAppExtension.appex"
             BlueprintName = "AUv3"
-            ReferencedContainer = "container:TemplateProject-iOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91236D0C1B08F42B00734C5E"
-            BuildableName = "TemplateProject.app"
+            BuildableName = "BassMatrix.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:TemplateProject-iOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91236D0C1B08F42B00734C5E"
-            BuildableName = "TemplateProject.app"
+            BuildableName = "BassMatrix.app"
             BlueprintName = "App"
-            ReferencedContainer = "container:TemplateProject-iOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

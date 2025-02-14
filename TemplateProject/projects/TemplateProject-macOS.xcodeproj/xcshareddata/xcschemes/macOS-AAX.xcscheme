@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4FB600121567CB0A0020189A"
-               BuildableName = "TemplateProject.aaxplugin"
+               BuildableName = "BassMatrix.aaxplugin"
                BlueprintName = "AAX"
-               ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+               ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4FB600121567CB0A0020189A"
-            BuildableName = "TemplateProject.aaxplugin"
+            BuildableName = "BassMatrix.aaxplugin"
             BlueprintName = "AAX"
-            ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>

@@ -1,4 +1,4 @@
-#import <TemplateProjectAU/TemplateProjectAU.h>
+#import <BassMatrixAU/BassMatrixAU.h>
 
 void Dummy(void)
 {

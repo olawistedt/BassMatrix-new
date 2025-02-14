@@ -39,9 +39,9 @@ def main():
       line="AppVersion=" + config['FULL_VER_STR'] + "\n"
     if "OutputBaseFilename" in line:
       if demo:
-        line="OutputBaseFilename=TemplateProject Demo Installer\n"
+        line="OutputBaseFilename=BassMatrix Demo Installer\n"
       else:
-        line="OutputBaseFilename=TemplateProject Installer\n"
+        line="OutputBaseFilename=BassMatrix Installer\n"
         
     if 'Source: "readme' in line:
      if demo:
@@ -51,15 +51,15 @@ def main():
     
     if "WelcomeLabel1" in line:
      if demo:
-       line="WelcomeLabel1=Welcome to the TemplateProject Demo installer\n"
+       line="WelcomeLabel1=Welcome to the BassMatrix Demo installer\n"
      else:
-       line="WelcomeLabel1=Welcome to the TemplateProject installer\n"
+       line="WelcomeLabel1=Welcome to the BassMatrix installer\n"
        
     if "SetupWindowTitle" in line:
      if demo:
-       line="SetupWindowTitle=TemplateProject Demo installer\n"
+       line="SetupWindowTitle=BassMatrix Demo installer\n"
      else:
-       line="SetupWindowTitle=TemplateProject installer\n"
+       line="SetupWindowTitle=BassMatrix installer\n"
        
     sys.stdout.write(line) 
     

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4FC3EFC32086C0A600BD11FA"
-               BuildableName = "TemplateProjectVST3Controller.a"
+               BuildableName = "BassMatrixVST3Controller.a"
                BlueprintName = "VST3C"
-               ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+               ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4FC3EFC32086C0A600BD11FA"
-            BuildableName = "TemplateProjectVST3Controller.a"
+            BuildableName = "BassMatrixVST3Controller.a"
             BlueprintName = "VST3C"
-            ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4FC3EFC32086C0A600BD11FA"
-            BuildableName = "TemplateProjectVST3Controller.a"
+            BuildableName = "BassMatrixVST3Controller.a"
             BlueprintName = "VST3C"
-            ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

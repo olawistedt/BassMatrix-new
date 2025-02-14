@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject-app", "projects\TemplateProject-app.vcxproj", "{41785AE4-5B70-4A75-880B-4B418B4E13C6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BassMatrix-app", "projects\BassMatrix-app.vcxproj", "{41785AE4-5B70-4A75-880B-4B418B4E13C6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject-vst2", "projects\TemplateProject-vst2.vcxproj", "{2EB4846A-93E0-43A0-821E-12237105168F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BassMatrix-vst2", "projects\BassMatrix-vst2.vcxproj", "{2EB4846A-93E0-43A0-821E-12237105168F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject-vst3", "projects\TemplateProject-vst3.vcxproj", "{079FC65A-F0E5-4E97-B318-A16D1D0B89DF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BassMatrix-vst3", "projects\BassMatrix-vst3.vcxproj", "{079FC65A-F0E5-4E97-B318-A16D1D0B89DF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject-aax", "projects\TemplateProject-aax.vcxproj", "{DC4B5920-933D-4C82-B842-F34431D55A93}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BassMatrix-aax", "projects\BassMatrix-aax.vcxproj", "{DC4B5920-933D-4C82-B842-F34431D55A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

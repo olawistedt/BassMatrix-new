@@ -6,13 +6,13 @@
 	<array>
 		<dict>
 			<key>description</key>
-			<string>TemplateProject</string>
+			<string>BassMatrix</string>
 			<key>factoryFunction</key>
-			<string>TemplateProject_Factory</string>
+			<string>BassMatrix_Factory</string>
 			<key>manufacturer</key>
 			<string>Acme</string>
 			<key>name</key>
-			<string>AcmeInc: TemplateProject</string>
+			<string>AcmeInc: BassMatrix</string>
 			<key>sandboxSafe</key>
 			<true/>
 			<key>subtype</key>
@@ -28,15 +28,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>TemplateProject</string>
+	<string>BassMatrix</string>
 	<key>CFBundleGetInfoString</key>
-	<string>TemplateProject v0.0.0 Copyright 2024 Acme Inc</string>
+	<string>BassMatrix v0.0.0 Copyright 2024 Acme Inc</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.AcmeInc.audiounit.TemplateProject</string>
+	<string>com.AcmeInc.audiounit.BassMatrix</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>TemplateProject</string>
+	<string>BassMatrix</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
@@ -50,6 +50,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.13.0</string>
 	<key>NSPrincipalClass</key>
-	<string>TemplateProject_View</string>
+	<string>BassMatrix_View</string>
 </dict>
 </plist>

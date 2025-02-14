@@ -20,10 +20,10 @@ echo ZIP_ARG %ZIP_ARG%
 echo END SCRIPT VARIABLES -----------------------------------------------------
 
 if %DEMO_ARG% == "demo" (
-  echo Making TemplateProject Windows DEMO VERSION distribution ...
+  echo Making BassMatrix Windows DEMO VERSION distribution ...
   set DEMO=1
 ) else (
-  echo Making TemplateProject Windows FULL VERSION distribution ...
+  echo Making BassMatrix Windows FULL VERSION distribution ...
   set DEMO=0
 )
 
@@ -74,22 +74,22 @@ if %DEMO% == 1 (
 )
 
 REM - Could build individual targets like this:
-REM - msbuild TemplateProject-app.vcxproj /p:configuration=release /p:platform=win32
+REM - msbuild BassMatrix-app.vcxproj /p:configuration=release /p:platform=win32
 
 REM echo Building 32 bit binaries...
-REM msbuild TemplateProject.sln /p:configuration=release /p:platform=win32 /nologo /verbosity:minimal /fileLogger /m /flp:logfile=build-win.log;errorsonly 
+REM msbuild BassMatrix.sln /p:configuration=release /p:platform=win32 /nologo /verbosity:minimal /fileLogger /m /flp:logfile=build-win.log;errorsonly 
 
 REM echo Building 64 bit binaries...
 REM add projects with /t to build VST2 and AAX
-msbuild TemplateProject.sln /t:TemplateProject-app;TemplateProject-vst3 /p:configuration=release /p:platform=x64 /nologo /verbosity:minimal /fileLogger /m /flp:logfile=build-win.log;errorsonly;append
+msbuild BassMatrix.sln /t:BassMatrix-app;BassMatrix-vst3 /p:configuration=release /p:platform=x64 /nologo /verbosity:minimal /fileLogger /m /flp:logfile=build-win.log;errorsonly;append
 
 REM --echo Copying AAX Presets
 
 REM --echo ------------------------------------------------------------------
 REM --echo Code sign AAX binary...
 REM --info at pace central, login via iLok license manager https://www.paceap.com/pace-central.html
-REM --wraptool sign --verbose --account XXXXX --wcguid XXXXX --keyfile XXXXX.p12 --keypassword XXXXX --in .\build-win\aax\bin\TemplateProject.aaxplugin\Contents\Win32\TemplateProject.aaxplugin --out .\build-win\aax\bin\TemplateProject.aaxplugin\Contents\Win32\TemplateProject.aaxplugin
-REM --wraptool sign --verbose --account XXXXX --wcguid XXXXX --keyfile XXXXX.p12 --keypassword XXXXX --in .\build-win\aax\bin\TemplateProject.aaxplugin\Contents\x64\TemplateProject.aaxplugin --out .\build-win\aax\bin\TemplateProject.aaxplugin\Contents\x64\TemplateProject.aaxplugin
+REM --wraptool sign --verbose --account XXXXX --wcguid XXXXX --keyfile XXXXX.p12 --keypassword XXXXX --in .\build-win\aax\bin\BassMatrix.aaxplugin\Contents\Win32\BassMatrix.aaxplugin --out .\build-win\aax\bin\BassMatrix.aaxplugin\Contents\Win32\BassMatrix.aaxplugin
+REM --wraptool sign --verbose --account XXXXX --wcguid XXXXX --keyfile XXXXX.p12 --keypassword XXXXX --in .\build-win\aax\bin\BassMatrix.aaxplugin\Contents\x64\BassMatrix.aaxplugin --out .\build-win\aax\bin\BassMatrix.aaxplugin\Contents\x64\BassMatrix.aaxplugin
 
 if %ZIP% == 0 (
 REM - Make Installer (InnoSetup)
@@ -100,21 +100,21 @@ echo Making Installer ...
   REM if exist "%ProgramFiles(x86)%" (goto 64-Bit-is) else (goto 32-Bit-is)
 
   REM :32-Bit-is
-  REM REM "%ProgramFiles%\Inno Setup 6\iscc" /Q ".\installer\TemplateProject.iss"
+  REM REM "%ProgramFiles%\Inno Setup 6\iscc" /Q ".\installer\BassMatrix.iss"
   REM goto END-is
 
   REM :64-Bit-is
-  "%ProgramFiles(x86)%\Inno Setup 6\iscc" /Q ".\installer\TemplateProject.iss"
+  "%ProgramFiles(x86)%\Inno Setup 6\iscc" /Q ".\installer\BassMatrix.iss"
   REM goto END-is
 
   REM :END-is
 
   REM - Codesign Installer for Windows 8+
-  REM -"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin\signtool.exe" sign /f "XXXXX.p12" /p XXXXX /d "TemplateProject Installer" ".\installer\TemplateProject Installer.exe"
+  REM -"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin\signtool.exe" sign /f "XXXXX.p12" /p XXXXX /d "BassMatrix Installer" ".\installer\BassMatrix Installer.exe"
 
   REM -if %1 == 1 (
-  REM -copy ".\installer\TemplateProject Installer.exe" ".\installer\TemplateProject Demo Installer.exe"
-  REM -del ".\installer\TemplateProject Installer.exe"
+  REM -copy ".\installer\BassMatrix Installer.exe" ".\installer\BassMatrix Demo Installer.exe"
+  REM -del ".\installer\BassMatrix Installer.exe"
   REM -)
 
   echo Making Zip File of Installer ...

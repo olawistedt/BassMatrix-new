@@ -21,8 +21,8 @@ SCRIPTS=$IPLUG2_ROOT/Scripts
 CODESIGN=0
 
 # macOS codesigning/notarization
-NOTARIZE_BUNDLE_ID=com.AcmeInc.TemplateProject
-NOTARIZE_BUNDLE_ID_DEMO=com.AcmeInc.TemplateProject.DEMO
+NOTARIZE_BUNDLE_ID=com.AcmeInc.BassMatrix
+NOTARIZE_BUNDLE_ID_DEMO=com.AcmeInc.BassMatrix.DEMO
 APP_SPECIFIC_ID=TODO
 APP_SPECIFIC_PWD=TODO
 
@@ -355,8 +355,8 @@ mv ./build-mac/*.zip ./build-mac/out
 
 #if [ $DEMO == 1 ]
 #then
-#  git checkout installer/TemplateProject.iss
-#  git checkout installer/TemplateProject.pkgproj
+#  git checkout installer/BassMatrix.iss
+#  git checkout installer/BassMatrix.pkgproj
 #  git checkout resources/img/AboutBox.png
 #fi
 

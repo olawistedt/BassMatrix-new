@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>TemplateProject</string>
+	<string>BassMatrix</string>
 	<key>CFBundleGetInfoString</key>
-	<string>TemplateProject v0.0.0 Copyright 2024 Acme Inc</string>
+	<string>BassMatrix v0.0.0 Copyright 2024 Acme Inc</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.AcmeInc.vst.TemplateProject</string>
+	<string>com.AcmeInc.vst.BassMatrix</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>TemplateProject</string>
+	<string>BassMatrix</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>

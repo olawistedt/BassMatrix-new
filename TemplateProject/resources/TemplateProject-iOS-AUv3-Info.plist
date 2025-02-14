@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>TemplateProjectAppExtension</string>
+	<string>BassMatrixAppExtension</string>
 	<key>CFBundleExecutable</key>
-	<string>TemplateProjectAppExtension</string>
+	<string>BassMatrixAppExtension</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>TemplateProjectAppExtension</string>
+	<string>BassMatrixAppExtension</string>
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
@@ -30,13 +30,13 @@
 			<array>
 				<dict>
 					<key>description</key>
-					<string>TemplateProject</string>
+					<string>BassMatrix</string>
 					<key>factoryFunction</key>
-					<string>IPlugAUViewController_vTemplateProject</string>
+					<string>IPlugAUViewController_vBassMatrix</string>
 					<key>manufacturer</key>
 					<string>Acme</string>
 					<key>name</key>
-					<string>AcmeInc: TemplateProject</string>
+					<string>AcmeInc: BassMatrix</string>
 					<key>sandboxSafe</key>
 					<true/>
 					<key>subtype</key>
@@ -54,7 +54,7 @@
 			</array>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
-		<string>TemplateProject-iOS-MainInterface</string>
+		<string>BassMatrix-iOS-MainInterface</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.AudioUnit-UI</string>
 	</dict>

@@ -27,21 +27,21 @@ def main():
   files = []
 
   if not zip:
-    installer = "\\build-win\\installer\\TemplateProject Installer.exe"
+    installer = "\\build-win\\installer\\BassMatrix Installer.exe"
     
     if demo:
-      installer = "\\build-win\\installer\\TemplateProject Demo Installer.exe"
+      installer = "\\build-win\\installer\\BassMatrix Demo Installer.exe"
     
     files = [
       projectpath + installer,
       projectpath + "\\installer\\changelog.txt",
       projectpath + "\\installer\\known-issues.txt",
-      projectpath + "\\manual\\TemplateProject manual.pdf" 
+      projectpath + "\\manual\\BassMatrix manual.pdf" 
     ]
   else:
     files = [
-      projectpath + "\\build-win\\TemplateProject.vst3\\Contents\\x86_64-win\\TemplateProject.vst3",
-      projectpath + "\\build-win\\TemplateProject_x64.exe"  
+      projectpath + "\\build-win\\BassMatrix.vst3\\Contents\\x86_64-win\\BassMatrix.vst3",
+      projectpath + "\\build-win\\BassMatrix_x64.exe"  
     ]
 
   zipname = get_archive_name(projectpath, "win", "demo" if demo == 1 else "full" )
@@ -58,8 +58,8 @@ def main():
   zf = zipfile.ZipFile(projectpath + "\\build-win\\out\\" + zipname + "-pdbs.zip", mode="w")
 
   files = [
-    projectpath + "\\build-win\\pdbs\\TemplateProject-vst3_x64.pdb",
-    projectpath + "\\build-win\\pdbs\\TemplateProject-app_x64.pdb"  
+    projectpath + "\\build-win\\pdbs\\BassMatrix-vst3_x64.pdb",
+    projectpath + "\\build-win\\pdbs\\BassMatrix-app_x64.pdb"  
   ]
 
   for f in files:

@@ -6,15 +6,15 @@
 #import <Cocoa/Cocoa.h>
 #endif
 
-#define IPLUG_AUVIEWCONTROLLER IPlugAUViewController_vTemplateProject
-#define IPLUG_AUAUDIOUNIT IPlugAUAudioUnit_vTemplateProject
-#import <TemplateProjectAU/IPlugAUViewController.h>
-#import <TemplateProjectAU/IPlugAUAudioUnit.h>
+#define IPLUG_AUVIEWCONTROLLER IPlugAUViewController_vBassMatrix
+#define IPLUG_AUAUDIOUNIT IPlugAUAudioUnit_vBassMatrix
+#import <BassMatrixAU/IPlugAUViewController.h>
+#import <BassMatrixAU/IPlugAUAudioUnit.h>
 
-//! Project version number for TemplateProjectAU.
-FOUNDATION_EXPORT double TemplateProjectAUVersionNumber;
+//! Project version number for BassMatrixAU.
+FOUNDATION_EXPORT double BassMatrixAUVersionNumber;
 
-//! Project version string for TemplateProjectAU.
-FOUNDATION_EXPORT const unsigned char TemplateProjectAUVersionString[];
+//! Project version string for BassMatrixAU.
+FOUNDATION_EXPORT const unsigned char BassMatrixAUVersionString[];
 
-@class IPlugAUViewController_vTemplateProject;
+@class IPlugAUViewController_vBassMatrix;

@@ -1,11 +1,11 @@
-#include "TemplateProject.h"
+#include "BassMatrix.h"
 #include "IPlug_include_in_plug_src.h"
 
 #if IPLUG_EDITOR
 #include "IControls.h"
 #endif
 
-TemplateProject::TemplateProject(const InstanceInfo& info)
+BassMatrix::BassMatrix(const InstanceInfo& info)
 : Plugin(info, MakeConfig(kNumParams, kNumPresets))
 {
   GetParam(kParamGain)->InitDouble("Gain", 0., 0., 100.0, 0.01, "%");
@@ -35,7 +35,7 @@ TemplateProject::TemplateProject(const InstanceInfo& info)
     pGraphics->LoadFont("Roboto-Regular", ROBOTO_FN);
     pGraphics->AttachPanelBackground(COLOR_LIGHT_GRAY);
     pGraphics->AttachControl(new IVSliderControl(sliderBounds, kParamGain), kCtrlTagSlider);
-    pGraphics->AttachControl(new ITextControl(titleBounds, "TemplateProject", IText(30)), kCtrlTagTitle);
+    pGraphics->AttachControl(new ITextControl(titleBounds, "BassMatrix", IText(30)), kCtrlTagTitle);
     WDL_String buildInfoStr;
     GetBuildInfoStr(buildInfoStr, __DATE__, __TIME__);
     pGraphics->AttachControl(new ITextControl(versionBounds, buildInfoStr.Get(), DEFAULT_TEXT.WithAlign(EAlign::Far)), kCtrlTagVersionNumber);
@@ -44,7 +44,7 @@ TemplateProject::TemplateProject(const InstanceInfo& info)
 }
 
 #if IPLUG_EDITOR
-void TemplateProject::OnParentWindowResize(int width, int height)
+void BassMatrix::OnParentWindowResize(int width, int height)
 {
   if(GetUI())
     GetUI()->Resize(width, height, 1.f, false);
@@ -52,7 +52,7 @@ void TemplateProject::OnParentWindowResize(int width, int height)
 #endif
 
 #if IPLUG_DSP
-void TemplateProject::ProcessBlock(sample** inputs, sample** outputs, int nFrames)
+void BassMatrix::ProcessBlock(sample** inputs, sample** outputs, int nFrames)
 { 
   const int nChans = NOutChansConnected();
   const double gain = GetParam(kParamGain)->Value() / 100.;

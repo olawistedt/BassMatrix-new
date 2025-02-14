@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\TemplateProject.cpp" />
+    <ClCompile Include="..\BassMatrix.cpp" />
     <ClCompile Include="..\..\iPlug2\IGraphics\IGraphics.cpp">
       <Filter>IGraphics</Filter>
     </ClCompile>
@@ -137,7 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="../config.h" />
-    <ClInclude Include="..\TemplateProject.h" />
+    <ClInclude Include="..\BassMatrix.h" />
     <ClInclude Include="..\resources\resource.h">
       <Filter>resources</Filter>
     </ClInclude>
@@ -423,16 +423,16 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\config\TemplateProject-ios.xcconfig">
+    <None Include="..\config\BassMatrix-ios.xcconfig">
       <Filter>config</Filter>
     </None>
-    <None Include="..\config\TemplateProject-web.mk">
+    <None Include="..\config\BassMatrix-web.mk">
       <Filter>config</Filter>
     </None>
-    <None Include="..\config\TemplateProject-win.props">
+    <None Include="..\config\BassMatrix-win.props">
       <Filter>config</Filter>
     </None>
-    <None Include="..\config\TemplateProject-mac.xcconfig">
+    <None Include="..\config\BassMatrix-mac.xcconfig">
       <Filter>config</Filter>
     </None>
   </ItemGroup>

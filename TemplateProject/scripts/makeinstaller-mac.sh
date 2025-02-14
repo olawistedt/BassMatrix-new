@@ -26,7 +26,7 @@ if [ "$VERSION" == "" ]; then
   exit 1
 fi
 
-PRODUCT_NAME=TemplateProject
+PRODUCT_NAME=BassMatrix
 
 # locations
 PRODUCTS="build-mac"

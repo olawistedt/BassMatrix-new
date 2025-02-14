@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F3AE17812C0E5E2001FD7A4"
-               BuildableName = "TemplateProject.component"
+               BuildableName = "BassMatrix.component"
                BlueprintName = "AU"
-               ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+               ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F3AE17812C0E5E2001FD7A4"
-            BuildableName = "TemplateProject.component"
+            BuildableName = "BassMatrix.component"
             BlueprintName = "AU"
-            ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>

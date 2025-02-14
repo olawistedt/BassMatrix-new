@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F20EEC8132C69FE0030E34C"
-               BuildableName = "TemplateProject.vst"
+               BuildableName = "BassMatrix.vst"
                BlueprintName = "VST2"
-               ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+               ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F20EEC8132C69FE0030E34C"
-            BuildableName = "TemplateProject.vst"
+            BuildableName = "BassMatrix.vst"
             BlueprintName = "VST2"
-            ReferencedContainer = "container:TemplateProject-macOS.xcodeproj">
+            ReferencedContainer = "container:BassMatrix-macOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>

@@ -1,10 +1,10 @@
 # IPLUG2_ROOT should point to the top level IPLUG2 folder from the project folder
-# By default, that is three directories up from /Examples/TemplateProject/config
+# By default, that is three directories up from /Examples/BassMatrix/config
 IPLUG2_ROOT = ../../iPlug2
 
 include ../../common-web.mk
 
-SRC += $(PROJECT_ROOT)/TemplateProject.cpp
+SRC += $(PROJECT_ROOT)/BassMatrix.cpp
 
 # WAM_SRC += 
 

@@ -1,4 +1,4 @@
-#define PLUG_NAME "TemplateProject"
+#define PLUG_NAME "BassMatrix"
 #define PLUG_MFR "AcmeInc"
 #define PLUG_VERSION_HEX 0x00000000
 #define PLUG_VERSION_STR "0.0.0"
@@ -7,13 +7,13 @@
 #define PLUG_URL_STR "https://iplug2.github.io"
 #define PLUG_EMAIL_STR "spam@me.com"
 #define PLUG_COPYRIGHT_STR "Copyright 2024 Acme Inc"
-#define PLUG_CLASS_NAME TemplateProject
+#define PLUG_CLASS_NAME BassMatrix
 
-#define BUNDLE_NAME "TemplateProject"
+#define BUNDLE_NAME "BassMatrix"
 #define BUNDLE_MFR "AcmeInc"
 #define BUNDLE_DOMAIN "com"
 
-#define SHARED_RESOURCES_SUBPATH "TemplateProject"
+#define SHARED_RESOURCES_SUBPATH "BassMatrix"
 
 #define PLUG_CHANNEL_IO "2-2"
 
@@ -34,16 +34,16 @@
 #define PLUG_MAX_WIDTH 8192
 #define PLUG_MAX_HEIGHT 8192
 
-#define AUV2_ENTRY TemplateProject_Entry
-#define AUV2_ENTRY_STR "TemplateProject_Entry"
-#define AUV2_FACTORY TemplateProject_Factory
-#define AUV2_VIEW_CLASS TemplateProject_View
-#define AUV2_VIEW_CLASS_STR "TemplateProject_View"
+#define AUV2_ENTRY BassMatrix_Entry
+#define AUV2_ENTRY_STR "BassMatrix_Entry"
+#define AUV2_FACTORY BassMatrix_Factory
+#define AUV2_VIEW_CLASS BassMatrix_View
+#define AUV2_VIEW_CLASS_STR "BassMatrix_View"
 
 #define AAX_TYPE_IDS 'ITP1'
 #define AAX_TYPE_IDS_AUDIOSUITE 'ITA1'
 #define AAX_PLUG_MFR_STR "Acme"
-#define AAX_PLUG_NAME_STR "TemplateProject\nIPEF"
+#define AAX_PLUG_NAME_STR "BassMatrix\nIPEF"
 #define AAX_PLUG_CATEGORY_STR "Effect"
 #define AAX_DOES_AUDIOSUITE 1
 

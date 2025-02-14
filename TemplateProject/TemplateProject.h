@@ -20,10 +20,10 @@ enum ECtrlTags
 using namespace iplug;
 using namespace igraphics;
 
-class TemplateProject final : public Plugin
+class BassMatrix final : public Plugin
 {
 public:
-  TemplateProject(const InstanceInfo& info);
+  BassMatrix(const InstanceInfo& info);
 
 #if IPLUG_EDITOR
   void OnParentWindowResize(int width, int height) override;

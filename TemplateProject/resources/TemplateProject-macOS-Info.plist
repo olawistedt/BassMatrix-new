@@ -5,17 +5,17 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>TemplateProject</string>
+	<string>BassMatrix</string>
 	<key>CFBundleGetInfoString</key>
-	<string>TemplateProject v0.0.0 Copyright 2024 Acme Inc</string>
+	<string>BassMatrix v0.0.0 Copyright 2024 Acme Inc</string>
 	<key>CFBundleIconFile</key>
-	<string>TemplateProject.icns</string>
+	<string>BassMatrix.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.AcmeInc.app.TemplateProject</string>
+	<string>com.AcmeInc.app.BassMatrix</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>TemplateProject</string>
+	<string>BassMatrix</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,7 +31,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.13.0</string>
 	<key>NSMainNibFile</key>
-	<string>TemplateProject-macOS-MainMenu</string>
+	<string>BassMatrix-macOS-MainMenu</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app needs mic access to process audio.</string>
 	<key>NSPrincipalClass</key>
